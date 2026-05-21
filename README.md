@@ -35,7 +35,7 @@ node audit.js <url> [--mode=ecommerce|leadgen]
 Examples:
 
 ```bash
-node audit.js https://www.dialabed.co.za --mode=ecommerce
+node audit.js https://example.com --mode=ecommerce
 node audit.js https://example.com --mode=leadgen
 ```
 
