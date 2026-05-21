@@ -1,0 +1,14 @@
+{
+  "name": "tracking-audit",
+  "version": "1.0.0",
+  "description": "Manual-drive tracking audit tool for analytics and ad platforms",
+  "main": "audit.js",
+  "scripts": {
+    "audit": "node audit.js",
+    "postinstall": "playwright install chromium"
+  },
+  "dependencies": {
+    "playwright": "^1.45.0",
+    "docx": "^8.5.0"
+  }
+}
